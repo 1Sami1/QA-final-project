@@ -36,4 +36,46 @@ h1{
     z-index: 23;
     margin-bottom: 30px !important;
 }
+h2{
+    font-weight: 800 !important;
+    z-index: 33 !important;
+}
 
+.paddles{
+    background-image: url("/Media/IMG_0642.webp");
+    height: 300px;
+    position: relative;
+    background-size: cover;
+}
+.paddles::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4); /* Dark semi-transparent overlay */
+    z-index: 1;
+}
+
+.clothing{
+    background-image: url("/Media/IMG_0695.webp");
+    background-size: cover;
+    position: relative;
+}
+.clothing::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4); /* Dark semi-transparent overlay */
+    z-index: 1;
+}
+
+
+.featured-div{
+    width: 80%;
+    margin: 0 auto;
+}
