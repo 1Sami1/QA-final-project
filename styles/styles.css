@@ -79,3 +79,37 @@ h2{
     width: 80%;
     margin: 0 auto;
 }
+
+.featured-section {
+    padding: 20px;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .section-heading {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .box-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Controls the gap between the boxes */
+  }
+  
+  .box {
+    flex: 1; /* Ensures boxes take up equal space */
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+
+  .box img{
+    width: 400px;
+}
+  
