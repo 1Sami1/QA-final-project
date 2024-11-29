@@ -5,6 +5,10 @@
 }
 
 }
+header{
+    background-color: #333;
+    color: #fff;
+}
 
 .hero{
     position: relative;
