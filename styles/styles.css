@@ -183,9 +183,6 @@ h2{
   
   /* Responsive adjustments */
   @media (max-width: 768px) {
-    .category-container {
-      flex-direction: column;
-    }
   
     .category-box {
       height: 200px;
