@@ -203,3 +203,10 @@ h2{
   }
 
   
+
+  @media (max-width: 1340px) {
+    .box-container{
+      flex-wrap: wrap;
+    }
+    
+  }
